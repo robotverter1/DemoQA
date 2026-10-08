@@ -12,6 +12,7 @@
             <class name="tests.AlertsTest"/>
             <class name="tests.ButtonsTest"/>
             <class name="tests.BrowserWindowsTest"/>
+            <class name="tests.WidgetsAndWindowsTest"/>
         </classes>
     </test>
     <test name="Firefox">
@@ -22,6 +23,7 @@
             <class name="tests.AlertsTest"/>
             <class name="tests.ButtonsTest"/>
             <class name="tests.BrowserWindowsTest"/>
+            <class name="tests.WidgetsAndWindowsTest"/>
         </classes>
     </test>
     <test name="Edge">
@@ -32,6 +34,7 @@
             <class name="tests.AlertsTest"/>
             <class name="tests.ButtonsTest"/>
             <class name="tests.BrowserWindowsTest"/>
+            <class name="tests.WidgetsAndWindowsTest"/>
         </classes>
     </test>
 </suite>

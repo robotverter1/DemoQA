@@ -15,7 +15,6 @@ public class TextBoxTest extends BaseTest {
 
     @Test(description = "Позитив: валидные данные приводят к отображению блока результата")
     @Severity(SeverityLevel.CRITICAL)
-    @Owner("Фамилия Имя")
     public void shouldSubmitValidData() {
         var page = new TextBoxPage(driver, wait);
         page.open();

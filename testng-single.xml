@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<!-- Один браузер. Выбор: mvn clean test -DsuiteXml=testng-single.xml -Dbrowser=firefox -Dheadless=true -->
+<suite name="Single browser DemoQA">
+    <listeners>
+        <listener class-name="utils.EnvironmentListener"/>
+    </listeners>
+    <test name="Single">
+        <classes>
+            <class name="tests.TextBoxTest"/>
+            <class name="tests.AlertsTest"/>
+            <class name="tests.ButtonsTest"/>
+            <class name="tests.BrowserWindowsTest"/>
+        </classes>
+    </test>
+</suite>

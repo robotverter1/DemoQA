@@ -1,0 +1,6 @@
+[
+  {"name": "Ошибки проверок (assert)", "matchedStatuses": ["failed"], "messageRegex": ".*expected.*|.*Ожидал.*"},
+  {"name": "Элемент не найден", "matchedStatuses": ["broken"], "messageRegex": ".*NoSuchElement.*"},
+  {"name": "Тайм-ауты ожиданий", "matchedStatuses": ["broken"], "messageRegex": ".*Timeout.*"},
+  {"name": "Перекрытие элементов (реклама/баннеры)", "matchedStatuses": ["broken"], "messageRegex": ".*ElementClickIntercepted.*"}
+]

@@ -10,6 +10,7 @@
             <class name="tests.AlertsTest"/>
             <class name="tests.ButtonsTest"/>
             <class name="tests.BrowserWindowsTest"/>
+            <class name="tests.WidgetsAndWindowsTest"/>
         </classes>
     </test>
 </suite>
